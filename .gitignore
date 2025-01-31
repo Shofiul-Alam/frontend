@@ -1,0 +1,31 @@
+# Ignore everything
+*
+# But not these files...
+!.gitignore
+!blocks.js
+!gulpfile.js
+!package.json
+!package-lock.json
+!README.md
+!screenshot.png
+
+# ...even if they are inside other directories
+!backup/
+!feed/
+!fonts/
+!img/
+!js/
+!scss/
+!screenshots/
+!src/
+!video/
+
+!backup/**
+!feed/**
+!fonts/**
+!img/**
+!js/**
+!scss/**
+!screenshots/**
+!src/**
+!video/**
